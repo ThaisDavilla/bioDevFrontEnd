@@ -14,13 +14,13 @@ div{
   text-align: center;
   width: 25vw;
   height: 35vh;
-  margin: 2.5vw auto;
+  margin: 1.5vw auto;
 }
 img{
   width: 100%;
   border-radius: 50%;
-  width: 7.32vw;
-  height: 16vh;
+  width: 12vw;
+  height: 18vh;
   padding: 3.7px;
   border: #be95c4 solid 4px;
 }
@@ -62,4 +62,62 @@ footer{
 }
 footer:hover{
   opacity: 1;
+}
+
+
+
+@media (max-width:600px){
+div{
+  text-align: center;
+  width:60vw;
+  height:32vh;
+  margin: 2vh auto;
+}
+img{
+  width: 100%;
+  border-radius: 50%;
+  width: 35vw;
+  height: 20vh;
+  padding: 3.7px;
+  border: #be95c4 solid 4px;
+}
+h1{
+  font-size: 5.2vh;
+  margin-top: 1.75vw;
+  margin-bottom: 1.28vh;
+}
+p{
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  opacity: 0.8;
+  font-size: 2.88vh;
+}
+ul{
+  margin: 7.68vh 0;
+}
+ul li a{
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #9f86c0;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 2.56vh;
+  margin-bottom: 2.56vh;
+  border-radius: 6px;
+  transition: 400ms;
+}
+ul li a:hover{
+  background: #5e548e;
+}
+footer{
+  font-weight: 500;
+  font-size: 1.92vh;
+  opacity: 0.6;
+  transition: opacity 400ms;
+}
+footer:hover{
+  opacity: 1;
+}
 }
