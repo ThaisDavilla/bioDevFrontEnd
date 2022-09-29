@@ -10,7 +10,7 @@
 
 body {
   font-family: "roboto", sans-serif;
-  background-color: #e0b1cb;
+  background-color: #70798c;
 }
 
 div {
@@ -26,7 +26,7 @@ img {
   width: 10vw;
   height: 18vh;
   padding: 3.7px;
-  border: #be95c4 solid 4px;
+  border: #324a5f solid 4px;
 }
 
 h1 {
@@ -51,7 +51,7 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #9f86c0;
+  background: #102542;
   color: whitesmoke;
   text-transform: uppercase;
   font-size: 2.56vh;
@@ -61,7 +61,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background: #5e548e;
+  background: #242f40;
 }
 
 footer {
@@ -79,21 +79,21 @@ footer:hover {
   div {
     text-align: center;
     width: 50vw;
-    height: 40vh;
+    height: 50vh;
     margin: 2vh auto;
   }
 
   img {
     width: 100%;
     border-radius: 50%;
-    width: 45vw;
-    height: 22vh;
+    width: 28vw;
+    height: 14vh;
     padding: 3.7px;
-    border: #be95c4 solid 4px;
+    border:  #324a5f solid 4px;
   }
 }
 
-@media (max-width:800px) {
+@media (max-width:750px) {
   div {
     text-align: center;
     width: 50vw;
@@ -104,10 +104,10 @@ footer:hover {
   img {
     width: 100%;
     border-radius: 50%;
-    width: 45vw;
-    height: 22vh;
+    width: 30vw;
+    height: 15vh;
     padding: 3.7px;
-    border: #be95c4 solid 4px;
+    border:  #324a5f solid 4px;
   }
 
   h1 {
@@ -132,7 +132,7 @@ footer:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #9f86c0;
+    background: #102542;
     color: whitesmoke;
     text-transform: uppercase;
     font-size: 2.56vh;
@@ -143,10 +143,19 @@ footer:hover {
 }
 
 @media (max-width:600px) {
+
+  img {
+    width: 100%;
+    border-radius: 50%;
+    width: 32vw;
+    height: 16vh;
+    padding: 3.7px;
+    border:  #324a5f solid 4px;
+  }
   div {
     text-align: center;
-    width: 90vw;
-    height: 40vh;
+    width: 80vw;
+    height: 30vh;
     margin: 2vh auto;
   }
 }
